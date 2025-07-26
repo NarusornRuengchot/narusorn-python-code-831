@@ -22,4 +22,4 @@ available_for_savings = remaining_income - emergency_fund_amount - investment_pe
 expense_ratio = (total_expenses / monthly_income) * 100
 
 print("\n=== MONTHLY BUDGET REPORT ===")
-print("")
+print("Income : ",monthly_income)

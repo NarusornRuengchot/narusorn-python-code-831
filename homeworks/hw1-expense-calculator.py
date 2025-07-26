@@ -22,16 +22,16 @@ available_for_savings = remaining_income - emergency_fund_amount - investment_pe
 expense_ratio = (total_expenses / monthly_income) * 100
 
 print("\n=== MONTHLY BUDGET REPORT ===")
-print(f"Income : {monthly_income} THB")
-print(f"Fixed Expenses : {total_fixed_expenses} THB")
-print(f"Variable Expenses : {total_variable_expenses} THB")
-print(f"Total Expenses : {total_expenses} THB")
-print(f"Remaining : {remaining_income} THB")
+print(f"Income : {monthly_income:.2f} THB")
+print(f"Fixed Expenses : {total_fixed_expenses:.2f} THB")
+print(f"Variable Expenses : {total_variable_expenses:.2f} THB")
+print(f"Total Expenses : {total_expenses:.2f} THB")
+print(f"Remaining : {remaining_income:.2f} THB")
 
 print("\n=== SAVINGS BREAKDOWN ===")
-print(f"Emergency Fund (10%) : {emergency_fund_amount} THB")
-print(f"Investment (15%) : {investment_amount} THB")
-print(f"Available for Savings : {available_for_savings} THB")
+print(f"Emergency Fund (10%) : {emergency_fund_amount:.2f} THB")
+print(f"Investment (15%) : {investment_amount:.2f} THB")
+print(f"Available for Savings : {available_for_savings:.2f} THB")
 
 print("\n=== ANALYSIS ===")
-print(f"Expense Ratio : {expense_ratio}%")
+print(f"Expense Ratio : {expense_ratio:.2f}%")

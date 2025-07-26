@@ -34,4 +34,4 @@ print(f"Investment (15%) : {investment_amount} THB")
 print(f"Available for Savings : {available_for_savings} THB")
 
 print("\n=== ANALYSIS ===")
-print(f"Expense Ratio : {expense_ratio} THB")
+print(f"Expense Ratio : {expense_ratio}%")

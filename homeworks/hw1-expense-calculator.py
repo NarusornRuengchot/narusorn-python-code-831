@@ -5,7 +5,7 @@ Date: 26/7/2568
 Purpose: Calculate monthly budget and savings
 """
 
-#Code for input user monthly income, rental cost, food budget,transportation expenses, entertainment budget, emergency fund, investment money  
+#Code for input user's income and spendings
 monthly_income = float(input("User's monthly income in THB : ")) 
 rent_cost = float(input("Monthly rent/housing cost : ")) 
 food_budget = int(input("Monthly food budget in THB : ")) 
@@ -14,7 +14,7 @@ entertainment_budget = int(input("Monthly entertainment budget : "))
 emergency_fund_percent = float(input("Percentage to save for emergency (e.g., 10.5) : "))
 investment_percent = float(input("Percentage to invest (e.g., 15.0) : "))
 
-#Code for calculating Total Fixed Expenses, Total Variable Expenses, Total Expenses, Remaining Income, Emergency Fund Amount, Investment Amount, Available for Savings, Expense Ratio
+#Code for calculating monthly budget and savings
 total_fixed_expenses = rent_cost + transportation_cost
 total_variable_expenses = food_budget + entertainment_budget
 total_expenses = total_fixed_expenses + total_variable_expenses

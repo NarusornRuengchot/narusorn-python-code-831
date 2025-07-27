@@ -34,8 +34,8 @@ print(f"Remaining : {remaining_income:.2f} THB")
 
 #Code for output user's savings
 print("\n=== SAVINGS BREAKDOWN ===")
-print(f"Emergency Fund (10%) : {emergency_fund_amount:.2f} THB")
-print(f"Investment (15%) : {investment_amount:.2f} THB")
+print(f"Emergency Fund ({emergency_fund_percent:.2f}%) : {emergency_fund_amount:.2f} THB")
+print(f"Investment ({investment_percent:.2f}%) : {investment_amount:.2f} THB")
 print(f"Available for Savings : {available_for_savings:.2f} THB")
 
 #Code for output user's expense ration

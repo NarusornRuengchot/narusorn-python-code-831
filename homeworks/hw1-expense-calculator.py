@@ -38,6 +38,6 @@ print(f"Emergency Fund ({emergency_fund_percent:.2f}%) : {emergency_fund_amount:
 print(f"Investment ({investment_percent:.2f}%) : {investment_amount:.2f} THB")
 print(f"Available for Savings : {available_for_savings:.2f} THB")
 
-#Code for output user's expense ration
+#Code for output user's expenses ratio
 print("\n=== ANALYSIS ===")
 print(f"Expense Ratio : {expense_ratio:.2f}%")

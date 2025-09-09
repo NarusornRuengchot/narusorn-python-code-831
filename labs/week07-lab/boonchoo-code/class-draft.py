@@ -1,7 +1,7 @@
 class ClassName:
     """Class docstring"""
     
-    def __init__(self, parameters):
+    def __init__(self, parameters):  #ต้องมีคำว่าselfทุกอันนะจ๊ะ
         # Constructor method
         self.attribute = value
     
@@ -10,6 +10,6 @@ class ClassName:
         return something
 
 
-myObj = ClassName(parameters)
+myObj = ClassName(parameters) #สร้างวัตถุของclass
 print(myObj.attribute)
 resultFromMethod = myObj.method_name()

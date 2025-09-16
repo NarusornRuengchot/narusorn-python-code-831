@@ -32,10 +32,14 @@ class BankAccount:
     
     def __str__(self):
         return f"Account {self.account_number}: Balance ${self.__balance}"
+    
+
 
 # Usage example
 account = BankAccount("12345", 1000)
 print(account.get_balance())  # 1000
+print(account.transaction_history)
+account.__balance = 5000000
 account.deposit(500)
 account.withdraw(200)
 print(account)  # Account 12345: Balance $1300
